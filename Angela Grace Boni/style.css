@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+/* -------------------------------------------------Header section----------------------------------------------------------- */
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(19, 18, 18); */
+}
+
+.logo{
+    color: rgb(233, 77, 103);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+.logo span{
+    color:white;
+
+}
+.nav-area{
+    display: flex;
+    position: relative;
+
+}
+
+.nav-area li{
+    list-style: none;
+    font-family: poppins;
+}
+.nav-area li a {
+    margin-top: 20px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+
+header .nav-area li a:hover{
+    color: rgb(233, 77, 103);
+    border-bottom: 2px solid rgb(233, 77, 103);
+}
+
+
+.btn-login{
+    background: rgb(233, 77, 103);
+    font-family: poppins, sans-serif;
+    border-radius: 50px;
+}
+.btn-login:hover{
+    background: white;
+    transition: ease-out;
+}
+/* ---------------------------Banner Section----------------------------------------------- */
+
+#banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("Images/7.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.banner .content{
+    max-width: 70%;
+    text-align: center;
+}
+.banner .content h1{
+    color:#fff;
+    font-size: 3.5em;
+    font-family: poppins, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+h1 span{
+    color:rgb(233, 77, 103);
+
+}
+.banner .content p{
+    color:#fff;
+    font-size:15px;
+    font-family: poppins, sans-serif;
+    margin-top: 5px;
+}
+.btn-1{
+    font-size: 1em;
+    font-family: poppins, sans-serif;
+    color: #fff;
+    background:  rgb(233, 77, 103);
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-1:hover{
+    background: white;
+    transition: ease-out;
+    color: rgb(233, 77, 103);
+}
+/* -----------------------------------------Footer section ------------------------------*/
+.footer{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(19, 18, 18);
+    padding: 60px 0px;
+    margin-bottom: 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15x;
+}
+.footer-col h5{
+    color: white;
+    margin-left: 1em;
+    
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    margin-left: 1em;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(233, 77, 103);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: rgb(233, 77, 103);
+	background-color: #ffffff;
+}
+
+
